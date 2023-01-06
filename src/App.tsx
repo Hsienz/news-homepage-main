@@ -1,4 +1,6 @@
 import Menu from './Menu'
+import New from './New'
+import Rank from './Rank'
 import './App.css'
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
     Is VC Funding Drying Up?
     Private funding by VC firms is down 50% YOY. We take a look at what that means.
 </p>
+
+
 
 <p>
 <h2>    01</h2>
