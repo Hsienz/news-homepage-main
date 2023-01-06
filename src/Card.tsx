@@ -4,19 +4,13 @@ import Rank from "./Rank/Rank";
 import Content from "./Content";
 export default function Card() {
 	return (
-		<div className="my-8 mx-4 font-Inter text-[15px] font-normal ">
-			<div>
-				<Menu />
-			</div>
-			<div>
+		<div className="my-8 mx-4 lg:my-16 lg:mx-32 font-Inter text-[15px] font-normal ">
+			<Menu />
+			<div className="lg:flex lg:gap-x-6">
 				<Content />
-			</div>
-			<div>
 				<New />
 			</div>
-			<div>
-				<Rank />
-			</div>
+			<Rank />
 		</div>
 	);
 }

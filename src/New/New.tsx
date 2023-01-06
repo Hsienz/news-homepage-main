@@ -19,7 +19,7 @@ const elem = [
 
 export default function New() {
 	return (
-		<div className="new mt-12 bg-Very_dark_blue py-6 px-4">
+		<div className="new mt-10 bg-Very_dark_blue py-6 px-4 lg:py-12 lg:w-1/4">
 			<h2 className="font-bold text-Soft_orange text-4xl"> New </h2>
 			<div className="mt-5">
 				{elem.map((x) => (

@@ -26,7 +26,7 @@ const elem = [
 
 export default function Rank() {
     return (
-        <div className="mt-8">
+        <div className="mt-14 lg:flex">
             {elem.map(x=><RankElement {...x}/>)}
         </div>
     )
